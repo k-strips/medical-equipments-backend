@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "seed": "./seed/seed.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -13,6 +14,7 @@
     "express-async-handler": "^1.1.4",
     "http-errors": "~1.6.3",
     "mongoose": "^5.12.4",
+    "mongoose-seed": "^0.6.0",
     "morgan": "~1.9.1"
   },
   "description": "crud api for hospital equipment management",

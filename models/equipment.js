@@ -3,24 +3,19 @@ const Schema = mongoose.Schema;
 
 const equipmentSchema = new Schema({
     department: {
-        type: String,
-        required: true,
+        type: String
     },
-    item: {
-        type: String,
-        required: true
+    equipment: {
+        type: String
     },
     unit_cost: {
         type: Number
     },
     quantity: {
-        type: Number,
-        required: true,
-        min: 0
+        type: Number
     },
     total: {
-        type: Number,
-        default: 0
+        type: Number
     }
 },{
     timestamps: true

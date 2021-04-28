@@ -8,7 +8,7 @@ const equipmentRouter = express.Router();
 
 equipmentRouter.route('/')
 .get(asyncHandler(async(req, res) => {
-    const equipments = await Equipments.find({});
+    const equipments = await Equipments.find(req.body);
     res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json');
     res.json(equipments);
