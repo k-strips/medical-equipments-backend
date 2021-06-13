@@ -11,3 +11,6 @@
 - localhost/equipments (get, post, delete)
 
 - localhost/equipments (get, put, delete)
+
+### seeding data
+-   to seed data, run **node seed/seed.js** while in the project root dir
