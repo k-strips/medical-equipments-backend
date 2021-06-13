@@ -20,5 +20,8 @@
   "description": "crud api for hospital equipment management",
   "main": "app.js",
   "author": "snob",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
